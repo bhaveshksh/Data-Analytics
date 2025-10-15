@@ -3,13 +3,14 @@ emp_id INT PRIMARY KEY,
 first_name VARCHAR,
 last_name VARCHAR,
 email VARCHAR,
-phone int,
+phone Bigint,
 city VARCHAR,
-Salary Int,
+Salary BigInt,
 Bonus DECIMAL
 )
-truncate table Customers;
-INSERT INTO Customers
+drop table Employee;
+truncate table Employee;
+INSERT INTO Employee
 VALUES
 (1,'Bhavesh','Kshirsagar','kshirsagarbhavesh20@gmail.com',9325369612,'Khamgaon',30000,150),
 (2,'Dyanu','Shirsath','shirsathdyanu76@gmail.com',9265868622,'Katraj',35000,150),
@@ -215,4 +216,4 @@ VALUES
 (199,'Kritika','Ahuja','kritika.ahuja+199@samplemail.in',9762458103,'Jalandhar',47420,125),
 (200,'Arnav','Sahni','arnav.sahni+200@samplemail.in',9891604723,'Ludhiana',61230,178);
 
-select * from Customers;
+select * from Employee;

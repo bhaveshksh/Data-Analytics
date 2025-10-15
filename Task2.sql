@@ -211,4 +211,7 @@ Values
 (198,NULL,'Agarwal','Data Engineer',33000,40,'F','Junior'),
 (199,'Aadhya','Gandal','Developer',65000,44,'F','Senior'),
 (200,'Avantika','Kapoor','Data Entry',60000,33,'M','Senior');
-select * from Company;
+
+select * from class1;
+select * from company;
+select * from staff;

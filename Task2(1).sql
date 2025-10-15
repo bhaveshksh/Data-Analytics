@@ -215,4 +215,4 @@ VALUES
 (199,'Vikas','Reddy','vikas.reddy+z5k8@samplemail.in',9849162307,'Daman','active',1255),
 (200,'Wasim','Mishra','wasim.mishra+f2p1@samplemail.in',9712456038,'Diu','inactive',1260);
 
-SELECT * FROM Customers;
+SELECT * FROM customers;
